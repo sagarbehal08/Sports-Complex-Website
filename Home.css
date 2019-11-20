@@ -50,7 +50,9 @@ body
 {
     border-radius:50px;
     box-shadow:0 0 12px 0 #025e97;
+
 }
+
 .carousel {
     border-radius: 55px  55px 55px 55px;
     margin-top:25px;
@@ -139,6 +141,10 @@ hr {
   margin:10px 0px 10px 15px;
   border-radius: 20px;
   box-shadow:0 0 12px 0 #025e97;
+  opacity: 1;
+}
+.Iimage img:hover{
+  opacity: 0.6;
 }
 .Iimage
 {
@@ -153,11 +159,15 @@ hr {
   color:white;
   margin-left:15px;
   margin-top:20px;
-    box-shadow:0 0 12px 0 #025e97;
+
+    border:none;
 }
 .button:hover
 {
   background-color: #025e97;
+  box-shadow:0 0 12px 0 #025e97;
+
+
 }
 .button:focus
 {
@@ -328,12 +338,17 @@ form .btn
   font-size:12px;
   border:none;
   cursor:pointer;
+
 }
 form .btn:hover
 {
   color:#fff;
   background-color: #025e97;
   box-shadow:0 0 12px 0 #025e97;
+}
+form .btn:focus
+{
+  outline:none;
 }
 .vl1{
 border-left: 4px solid #037dc9;
@@ -516,6 +531,7 @@ box-shadow:0 0 12px 0 #025e97 ;
   padding: 6px 8px;
   width: 65%;
   border-radius: 20px;
+  color:black;
 }
 #footer .footer-top .footer-newsletter input[type="submit"]
 {
@@ -536,6 +552,13 @@ box-shadow:0 0 12px 0 white;
 #footer .footer-top .footer-newsletter input[type="submit"]:hover{
   background: #0062cc;
   box-shadow:0 0 12px 0 white;
+}
+
+#footer .footer-top .footer-newsletter input[type="email"]:focus{
+outline: none;
+}
+#footer .footer-top .footer-newsletter input[type="submit"]:focus{
+  outline: none;
 }
 #footer .container {
   background-color: #025e97;
