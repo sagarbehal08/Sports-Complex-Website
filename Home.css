@@ -22,6 +22,10 @@ body
   margin-left:6px;
 
 }
+.header:hover
+{
+background-color:rgb(255, 255, 255,0.9);
+}
 .main{
   margin-top:150px;
 }
